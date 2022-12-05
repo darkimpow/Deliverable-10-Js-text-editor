@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function bold() { document.getElementById ('textid').style.fontWeight = bold}
+            function italic(){document.getElementById ('textid').style.fontStyle = italic}
+            function uppercase(){ document.getElementById ('textid').style.textTransform =uppercase}          
+            function lowercase(){document.getElementById ('textid').style.textTransform =lowercase}
+            function capitalize(){ document.getElementById ('textid').style.textTransform =capitalize}
+            function Clear(){ document.getElementById ('textid').value =""}
+            function center(){document.getElementById ('textid').style.textAlign=center}
+            function right(){document.getElementById ('textid').style.textAlign=right}
+            function left() { document.getElementById ('textid').style.textAlign= left}
+        </script>
+    </head>
+    <body>
+    
+    
+        <title>Text Editor</title>
+        <div>
+                <button onclick="document.getElementById ('textid').style.fontWeight ='bold'">Bold</button>
+                <button onclick="document.getElementById ('textid').style.fontStyle ='italic'">italic</button>
+                <button onclick="document.getElementById ('textid').style.textTransform ='uppercase'">Upper case</button> 
+                <button onclick="document.getElementById ('textid').style.textTransform ='lowercase'">Lower case</button>
+                <button onclick="document.getElementById ('textid').style.textTransform ='capitalize'">capitalize</button>
+                <button onclick="document.getElementById ('textid').value =''">Clear Text</button>
+                <button onclick="document.getElementById ('textid').style.textAlign='center'">Center</button>
+                <button onclick="document.getElementById ('textid').style.textAlign='right'">tar</button>
+                <button onclick="document.getElementById ('textid').style.textAlign='left'">text left</button>        
+        
+        
+        
+        </div>
+
+        <div>
+            <input id="textid" type="textarea" placeholder="Type text here" w-20 h-20>
+        </div>
+
+
+        
+    </body>
+</html>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

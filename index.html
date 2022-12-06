@@ -12,17 +12,17 @@
 
         
         <div class="flex items-center justify-center w-12/12">
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.fontWeight ='bold'">Bold</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.fontStyle ='italic'">italic</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.textTransform ='uppercase'">Upper case</button> 
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.textTransform ='lowercase'">Lower case</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.textTransform ='capitalize'">capitalize</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').value =''">Clear Text</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.textAlign='center'"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="bold()">Bold</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="italic()">italic</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="uppercase()">Upper case</button> 
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="lowercase()">Lower case</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="capitalize()">capitalize</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="clear()">Clear Text</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="center()"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" /> </svg> </button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.textAlign='right'"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="right()"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" /> </svg> </button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="document.getElementById ('textid').style.textAlign='left'"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-5 m-4" onclick="left()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" /> </svg> </button>        
         </div>
 

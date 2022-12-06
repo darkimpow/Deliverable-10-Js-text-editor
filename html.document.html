@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <h1 class="flex flex-col font-sans items-center Text Editor text-white text-5xl">Text Editor</h1>
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" / > 
         <script src="https://cdn.tailwindcss.com"></script> 
     </head>
     <body>
-        <body class="h-screen bg-gray">
+        <body class="h-screen bg-black">
     
     
-        <title class="text-white">Text Editor</title>
+
         
-        <div class="flex justify-items-center">
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-5" onclick="document.getElementById ('textid').style.fontWeight ='bold'">Bold</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-5" onclick="document.getElementById ('textid').style.fontStyle ='italic'">italic</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-6" onclick="document.getElementById ('textid').style.textTransform ='uppercase'">Upper case</button> 
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-6" onclick="document.getElementById ('textid').style.textTransform ='lowercase'">Lower case</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-6" onclick="document.getElementById ('textid').style.textTransform ='capitalize'">capitalize</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-6" onclick="document.getElementById ('textid').value =''">Clear Text</button>
-                <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-6" onclick="document.getElementById ('textid').style.textAlign='center'"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <div class="flex justify-items-center p-20">
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-6 m-5" onclick="document.getElementById ('textid').style.fontWeight ='bold'">Bold</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-6 m-5" onclick="document.getElementById ('textid').style.fontStyle ='italic'">italic</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-6 m-6" onclick="document.getElementById ('textid').style.textTransform ='uppercase'">Upper case</button> 
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-6 m-6" onclick="document.getElementById ('textid').style.textTransform ='lowercase'">Lower case</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-6 m-6" onclick="document.getElementById ('textid').style.textTransform ='capitalize'">capitalize</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-6 m-6" onclick="document.getElementById ('textid').value =''">Clear Text</button>
+                <button class="border-solid rounded border-2 border-violet-700 text-white p-6 m-6" onclick="document.getElementById ('textid').style.textAlign='center'"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" /> </svg> </button>
                 <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-6" onclick="document.getElementById ('textid').style.textAlign='right'"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" /> </svg> </button>
                 <button class="border-solid rounded border-2 border-violet-700 text-white p-8 m-6" onclick="document.getElementById ('textid').style.textAlign='left'"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" /> </svg> </button>        
-        
-        
-        
         </div>
 
         <div>
-            <input class=" h-80 w-80 flex justify-items-center border-solid rounded border-2 border-violet-700 text-slate-400" id="textid" type="textarea" placeholder="Type text here" w-20 h-20>
+            <input class="flex flex-col items-center justify-center border-solid rounded border-2 w-8/12 h-80 p-10 mx-auto rounded-lg border-violet-700 text-slate-400" id="textid" type="textarea" placeholder="Type text here">
         </div>
 
         
